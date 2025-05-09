@@ -1,0 +1,29 @@
+body{
+	background-color:#dddddd;
+}
+img{
+  margin: auto;
+  width:50%;
+  display: block;
+  }
+
+
+  .section-div{
+
+    width:25%; 
+    border:0px dashed black; 
+    float: left; 
+    text-align: center;
+  }
+  .main-div{
+    width:100%; 
+    border:0px dashed black; 
+    overflow: auto; 
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
+  .grid-cont{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    text-align: center;
+  }
